@@ -9,6 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    color: red;
+    background-color: black;
 }
 
 .card {
