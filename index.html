@@ -15,8 +15,9 @@
         
               <p>Cantidad:
                 <span class="cantidad">0</span>
-                <button 
-                >+</button>
+                <button onclick="cantidad=document.querySelector('.cantidad')">
+                    +
+                </button>
                 <button
                 >-</button>
               </p>
@@ -33,5 +34,45 @@
       
 
     </script>
+
+    <!-- 
+        
+        otra forma de hacerlo con funcion
+        <!DOCTYPE html>
+    <html>
+    <body>
+
+    <h1>Carrito de compras</h1>
+
+    <p>Cantidad: <span id="cantidad">0</span></p>
+    <p>Total a pagar: $<span id="total">0</span></p>
+
+    <button onclick="incrementar()">+</button>
+    <button onclick="decrementar()">-</button>
+
+    <script>
+    var precio = 10; // Precio del producto
+
+    function incrementar() {
+    var cantidad = document.getElementById("cantidad").innerHTML;
+    cantidad = parseInt(cantidad) + 1;
+    document.getElementById("cantidad").innerHTML = cantidad;
+    document.getElementById("total").innerHTML = cantidad * precio;
+    }
+
+    function decrementar() {
+    var cantidad = document.getElementById("cantidad").innerHTML;
+    if(cantidad > 0) {
+    cantidad = parseInt(cantidad) - 1;
+    document.getElementById("cantidad").innerHTML = cantidad;
+    document.getElementById("total").innerHTML = cantidad * precio;
+     }
+    }
+    </script>
+
+    </body>
+    </html>
+    
+    -->
 </body>
 </html>
