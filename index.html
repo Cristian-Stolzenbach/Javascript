@@ -12,6 +12,26 @@
             <div class="img-card"></div>
               <h6>Laptop Gamer AMD</h6>
               <p>Precio base: $<span class="precio-inicial"></span> </p>
+
+              <!--
+                rogramar en el html
+              -->
+
+              <button onclick="cantidad=document.querySelector('.cantidad')
+                cantidadAumentada=Number(cantidad.innerHTML)
+                cantidadAumentada=cantidadAumentada+1
+                cantidad.innerHTML=cantidadAumentada 
+                valor=document.querySelector('.valor-total')
+                if (cantidadAumentada <=0){
+                    valor.innerHTML=0
+                }
+                else {
+                valor.innerHTML=cantidadAumentada*precio
+        }
+                ">+</button>
+
+
+              <!--
         
               <p>Cantidad:
                 <span class="cantidad">0</span>
@@ -22,6 +42,7 @@
                     -
                 </button>
               </p>
+              -->
             </div>
 
         </div>

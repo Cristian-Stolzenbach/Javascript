@@ -1,3 +1,7 @@
+let precio = 400000;
+
+let precioSpan = document.querySelector(".precio-inicial");
+precioSpan.innerHTML = precio;
 
 
 // no funciono nada por aca creo que es mas practica y en clase se enseño por html-------------------------------------------------
