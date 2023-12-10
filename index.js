@@ -1,7 +1,7 @@
 // comentando let me falto eso  y  creo que por eso no funciona  (no se)
 let precio = 400000;
 let precioSpan = document.querySelector(".precio-inicial");
-let precioSpan.innerHTML = precio;
+precioSpan.innerHTML = precio;
 // programar aca boton mas
 cantidadAumentada = Number(cantidad.innerHTML);
 cantidadAumentada = cantidadAumentada + 1;
