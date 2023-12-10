@@ -1,7 +1,7 @@
 precio = 400000;
 precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
-// programar aca
+// programar aca boton mas
 cantidadAumentada = Number(cantidad.innerHTML);
 cantidadAumentada = cantidadAumentada + 1;
 cantidad.innerHTML = cantidadAumentada;
